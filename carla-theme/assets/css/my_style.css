@@ -1,0 +1,72 @@
+.container-narrow { max-width: 65em;}
+
+.single h2.wp-block-heading { border-top: 1px solid rgba(221, 221, 221, 0.8); padding-top: 10px; margin-bottom: 15px; margin-top: 40px; }
+
+.card-overlay { background: linear-gradient(360deg, #000000e0, transparent);}
+
+/* .site-main, .site { min-height: 100vh;}*/
+
+.drop-shadow { box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);}
+
+.top-15 { top: 15% !important;}
+
+.grid-2 .fs-5 { font-size: 16px !important;}
+
+.aspect_ratio_1 img { aspect-ratio:1/1; object-fit:cover; width:100%;}
+
+.aspect_ratio_4 img { aspect-ratio:4/3; object-fit:cover; width:100%;}
+
+.aspect_ratio_16 img {aspect-ratio:16/9;object-fit:cover;width:100%; }
+
+.featured-image img { aspect-ratio: 16/9; object-fit: cover; width:100%; }
+
+a { text-decoration:none !important;}
+
+.article-post a,.comments-area a {  text-decoration: underline !important; color: rgb(215, 0, 0);}
+
+.comment-reply a { color: #fff !important;}
+
+.h5 a { color: #0c0c0c !important;}
+
+/* menu-css */
+
+@media all and (min-width: 992px) {
+header .navbar .nav-item .dropdown-menu { display: none;}
+header .navbar .nav-item:hover .dropdown-menu { display: block;}
+header .navbar .nav-item .dropdown-menu { margin-top: 0;}
+}
+
+header .dropdown:hover>.dropdown-menu { animation: fade-in-bottom 0.2s ease-in-out both; border: none !important;}
+
+@keyframes fade-in-bottom {
+0% { transform: translateY(10px); opacity: 0;}
+100% { transform: translateY(0px); opacity: 1;}
+}
+
+/* menu-css */
+.meta_description, .archive-description{max-width: 75%;margin: 0 auto;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-choices), system-ui;
+    font-weight: var(--heading-font-weight) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: var(--font-choices), system-ui;
+    font-weight: 500;
+}
+
+h1 { font-size: var(--h1-size) !important; }
+h2 { font-size: var(--h2-size) !important; }
+h3 { font-size: var(--h3-size) !important; }
+h4 { font-size: var(--h4-size) !important; }
+
+body, div, p, .site-title, .site-description 
+{ font-family: var(--body-font), system-ui; font-weight: var(--body-font-weight); font-size: var(--body-font-size); }
+
+
+
+
+
+
+
